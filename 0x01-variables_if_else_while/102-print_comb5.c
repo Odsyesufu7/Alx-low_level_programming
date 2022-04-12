@@ -38,7 +38,7 @@ if (num1 == 98 && num2 == 99)
 continue;
 
 
-purchar(',');
+putchar(',');
 putchar (' ');
 
 }
