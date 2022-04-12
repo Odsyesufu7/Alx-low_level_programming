@@ -7,11 +7,11 @@
 int main(void)
 
 {
-int digit;
+int c;
 
-for (digit = 0; digit < 10; digit++)
+for (n = 0; c < 10; c++)
 {
-printf("%digit", digit);
+printf("%c", c);
 }
 
 printf("\n");
