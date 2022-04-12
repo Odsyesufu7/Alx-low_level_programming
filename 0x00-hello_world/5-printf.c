@@ -6,6 +6,6 @@
  */
 int main(void)
 {
-rintf("with proper grammar, but the outcome is a piece of art,\n");
+rintf("with proper grammar, but the outcome is a piece of art, \n");
 reurn (0);
 }
