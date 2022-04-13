@@ -1,3 +1,6 @@
+#include "main.h"
+
+
 /**
  * main - Entry point
  * @void: no argument
