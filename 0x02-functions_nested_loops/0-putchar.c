@@ -1,6 +1,6 @@
 /*
  * File : 0-putchar.c
- * Auth : Oluwaseyi Yesufu
+ * Auth : Oluwaseyi D Yesufu
  */
 #include "main.h"
 /**
