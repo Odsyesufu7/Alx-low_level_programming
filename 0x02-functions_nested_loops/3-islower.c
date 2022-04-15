@@ -8,10 +8,14 @@
  * @c: char type letter
  * Return: 1 if lowercase, 0 if not lowercase
  */
-int _islower(int c)
+
+void print_numbers(void)
 {
-	if (c >= 'a' && c <= 'z')
-		return (1);
-	else
-		return (0);
+	int x;
+
+	for (x = 48; x < 58; x++)
+	{
+	 	_putchar(x);
+	}
+	_putchar(10);
 }
