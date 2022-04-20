@@ -11,9 +11,9 @@ void _puts(char *str)
 char *c;
 int x;
 
-x = str;
+c = str;
 
-for (n = 0; c[x]; x++)
+for (x = 0; c[x]; x++)
 {
 _putchar (c[x]);
 }
