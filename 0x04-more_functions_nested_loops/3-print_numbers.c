@@ -1,21 +1,16 @@
 #include "main.h"
+
 /**
- * print_number - print an integer
- * @n: tracked var
+ * print_numbers - prints the numbers, from 0 to 9
  */
 
-void print_numbers(int n)
+void print_numbers(void)
 {
-	unsigned int x = n;
+	int x;
 
-	if (n < 0)
+	for (x = 48; x < 58; x++)
 	{
-		_putchar(45);
-		x = -x;
+		_putchar(x);
 	}
-	if ((x / 10) > 0)
-	{
-		print_number(x / 10);
-	}
-	_putchar((x % 10) + 48);
+	_putchar(10);
 }
