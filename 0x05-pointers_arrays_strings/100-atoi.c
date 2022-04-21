@@ -35,6 +35,8 @@ sign *= -1;
 }
 
 }
+
 return (number * sign);
+
 
 }
