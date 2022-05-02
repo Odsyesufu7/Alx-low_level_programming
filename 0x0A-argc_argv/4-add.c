@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
@@ -72,3 +71,6 @@ printf("%d\n", sum); /*print sum*/
 
 return (0);
 }
+
+
+ 
