@@ -1,15 +1,18 @@
-#include <stdio.h>
+#include<stdio.h>
+#define UNUSED(x) (void)(x)
 
 /**
- * main -entry point
- * @argc: offset count
- * @argv: offset value
- * Return: always return 0
- */
+* main - function
+*
+* @argv: the chaine of chaine
+* @argc: the int
+* Return: Always 0.
+*/
 
-
-int main(int argc, char *argv[])
+int main(int argc, char **argv)
 {
-	printf("%s\n", argv[argc - 1]);
+	UNUSED(argc);
+	printf("%s\n", argv[0]);
+
 	return (0);
 }
