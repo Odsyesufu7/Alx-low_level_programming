@@ -18,8 +18,8 @@ char **strtow(char *str)
 		return (NULL);
 	for (i = 0; i < words; i++)
 	{
-		start = StartIndex(str, j);
-		end = EndIndex(str, start);
+		start = startIndex(str, j);
+		end = endIndex(str, start);
 		len = end - start;
 		ptr[i] = malloc(sizeof(char) * (len + 1));
 		if (!ptr[i])
