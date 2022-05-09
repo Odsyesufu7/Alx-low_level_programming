@@ -1,3 +1,9 @@
+#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+
+
 /**
  * init - initializes a string
  * @str: sting to initialize
