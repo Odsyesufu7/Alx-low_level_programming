@@ -1,4 +1,3 @@
-
 This is the descriptive of the Repository for the Project.
 
 * Create a header file that defines a macro named size as an abbreviation for the token 1024
@@ -6,4 +5,3 @@ This is the descriptive of the Repository for the Project.
 * Write a program that prints the name of the file it was compilied from , followed by a new line.
 * Write a function-like macro ABS(x) that computes the absolute value of a number x.
 * Write a function-like macro sum(x, y) that computes the sum of the numbers x and y.
-
