@@ -1,17 +1,24 @@
+#include "holberton.h"
 #include <stdio.h>
 
 /**
- * main - is a function that prints the name.
- *@argc: is an argument counter for char.
- *@argv: is an agument value for char.
- *Return: Returns always success.
-**/
+ * main - program that prints its name
+ * @argc: argument count
+ * @argv: argunment vector
+ *
+ * Return: int
+ */
 
 int main(int argc, char *argv[])
 {
-int i = argc - argc;
+	int count;
 
-printf("%s\n", argv[i]);
-
-return (0);
+	for (count = 0; count < argc; count++)
+	{
+		if (argc == 1)
+			printf("%s\n", argv[count]);
+		else
+			break;
+	}
+	return (0);
 }
