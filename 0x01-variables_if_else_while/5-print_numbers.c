@@ -1,21 +1,19 @@
 #include <stdio.h>
+
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success/correct)
+ * main - program that prints all single digit numbers of base 10 starting from
+ * All your code should be in the main function
+ * Return: 0
  */
+
 int main(void)
-
 {
-int i;
-
-for (i = 0 ; i < 10; i++)
+int n;
+while (n < 10)
 {
-printf("%i", i);
+printf("%d", n);
+n += 1;
 }
-
 printf("\n");
-
 return (0);
-
 }
